@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "finalize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "Result",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Decision-making_sol.sol": "DecisionMakingExercise"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Decision-making_sol.sol": {
+			"keccak256": "0xb28fc50a545b5fcc47b45056fe975cb745aac8e377f4114892f565ce90a3cad5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5abfc5e48a1ac4cc90a44dbf3226e9736eccbc1bdb4f2a158875ab1e1e86526",
+				"dweb:/ipfs/QmaX1KDz8h8hSARHW6UJmzYbGvNxU4wBhpLL4iizBY9BhF"
+			]
+		}
+	},
+	"version": 1
+}

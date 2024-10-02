@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "colorChoice",
+				"outputs": [
+					{
+						"internalType": "enum ColorPalette.Color",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllChoices",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getColorChoice",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum ColorPalette.Color",
+						"name": "_color",
+						"type": "uint8"
+					}
+				],
+				"name": "selectColor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ColorPalette.sol": "ColorPalette"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ColorPalette.sol": {
+			"keccak256": "0xf7d501f8baedaf685d5f51987578cf16fc9d56b17f78f91ae313ef3978500ba9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://edb80a32b687df18d069943a519755b5046b1196516b84fe645a6bb7ed4798b8",
+				"dweb:/ipfs/QmbnuiBQ5pip1616fKfGAEQcCuxbJp7oTZAApyb63zXbWq"
+			]
+		}
+	},
+	"version": 1
+}

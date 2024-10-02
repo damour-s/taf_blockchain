@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_country",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_studentId",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_studentId",
+						"type": "uint256"
+					}
+				],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "country",
+								"type": "string"
+							}
+						],
+						"internalType": "struct GetDetails.Personal",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Simple-Storage.sol": "GetDetails"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Simple-Storage.sol": {
+			"keccak256": "0x41cd43ae16981bd791f526e00bce1e1f947b3c5772f2fdd58221d70c47ba5cf2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b07b89bdb90f0a612ec0f3bf78948a1e8c72ae66dcbcfe451b40936105870b9",
+				"dweb:/ipfs/QmPHiWEjWadupS9P7MoJjAYXYW9etJAQ22yG3MsUTu6ec7"
+			]
+		}
+	},
+	"version": 1
+}
