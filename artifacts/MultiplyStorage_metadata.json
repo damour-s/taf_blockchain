@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MultiplyStorage.sol": "MultiplyStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MultiplyStorage.sol": {
+			"keccak256": "0xc03b5cac06f82fa2fe6e2bee000dda6d0334c180bd5479c6a9b20db964ca9d36",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e2a12400740cc9031006b1e6c18b12be365044b174c39ad063fd70e710af7b19",
+				"dweb:/ipfs/Qmf56JepADsC3YF6hoknXyA8FkS7YCSCeoUpqkDpnf3kAY"
+			]
+		},
+		"Storage.sol": {
+			"keccak256": "0xed6ad5cd694f7eb54d989da80f3ea94ae07db3c1bf217bb561dbd12eb2d8ff09",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c13e85a63a1ebb7d5069bbed7a090ddf4f8094f7b040172d10d440e2fb46aee8",
+				"dweb:/ipfs/QmTuT4B5LzFX6rxwZy42XuxXMUU8WjRszXHwd2x7Xwvgu9"
+			]
+		}
+	},
+	"version": 1
+}

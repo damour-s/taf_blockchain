@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_movieId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_directorName",
+						"type": "string"
+					}
+				],
+				"name": "addMovie",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_movieId",
+						"type": "uint256"
+					}
+				],
+				"name": "getMovie",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "director",
+								"type": "string"
+							}
+						],
+						"internalType": "struct MovieContract.Movie",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Movie.sol": "MovieContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Movie.sol": {
+			"keccak256": "0x1bd46e392970706a1c9013c2e1935e59cc8dbfda399c4b6e6b64e06c39900a62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3966596617d0f5a76cdbfec761e001cb83760dbcd189b9470b8c615969c85bb0",
+				"dweb:/ipfs/QmQK2QKEqYiTEbZhuB1gBzncaqzAo19LPV6NSPGQ9Dhxj8"
+			]
+		}
+	},
+	"version": 1
+}
